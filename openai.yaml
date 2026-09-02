@@ -1,0 +1,4 @@
+interface:
+  display_name: "XUNBEE Message Inbox"
+  short_description: "Query authorized email and SMS messages with a XUNBEE API key."
+  default_prompt: "Use $xunbee-message-inbox to find my latest matching email or SMS verification code."
