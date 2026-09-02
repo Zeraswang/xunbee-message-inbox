@@ -30,8 +30,8 @@ account and does not expose unrelated inbox items.
 
 ## Get a XUNBEE API key
 
-1. Sign in to the [XUNBEE console](https://cc.akuwan.cn/console/login).
-2. Open [Notification Center](https://cc.akuwan.cn/console/notifications) and
+1. Sign in to the [XUNBEE console](https://cc.akuwan.cn/admin/console/login).
+2. Open [Notification Center](https://cc.akuwan.cn/admin/console/notifications) and
    select the **API Key** tab.
 3. Under **消息读取密钥**, click **签发密钥**.
 4. Enter a recognizable label and choose an expiry period from 1 to 365 days.
@@ -247,8 +247,8 @@ XUNBEE Message Inbox 是一个面向 OpenClaw 和 Codex 的 Agent Skill，用于
 
 配置步骤：
 
-1. 登录 [XUNBEE 控制台](https://cc.akuwan.cn/console/login)。
-2. 进入[通知中心](https://cc.akuwan.cn/console/notifications)的 **API Key** 页签。
+1. 登录 [XUNBEE 控制台](https://cc.akuwan.cn/admin/console/login)。
+2. 进入[通知中心](https://cc.akuwan.cn/admin/console/notifications)的 **API Key** 页签。
 3. 点击 **签发密钥**，设置名称和 1–365 天有效期。
 4. 立即保存只显示一次的 Key，并私密配置为 `XUNBEE_API_KEY`。
 5. 使用最小范围进行验证，例如：
