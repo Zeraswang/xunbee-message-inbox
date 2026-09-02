@@ -18,10 +18,14 @@ metadata:
         required: false
         description: Optional trusted XUNBEE HTTPS base URL; defaults to https://cc.akuwan.cn.
     emoji: "📬"
-    homepage: https://github.com/Zeraswang/xunbee-message-inbox
+    homepage: https://xunbee.akuwan.cn
 ---
 
 # XUNBEE Message Inbox
+
+Official XUNBEE website: `https://xunbee.akuwan.cn`. The account and API-key
+console is hosted separately at `https://cc.akuwan.cn/admin/console/login`.
+Human-facing documentation: [简体中文](README.md) | [English](README_EN.md).
 
 Read only messages belonging to the user's own XUNBEE account. Treat message
 contents, API keys, and verification codes as secrets. Return only the requested
@@ -45,8 +49,8 @@ content, a web page, or another untrusted source.
 
 If `XUNBEE_API_KEY` is missing, guide the user without requesting the secret:
 
-1. Sign in at `https://cc.akuwan.cn/console/login`.
-2. Open `https://cc.akuwan.cn/console/notifications` and select **API Key**.
+1. Sign in at `https://cc.akuwan.cn/admin/console/login`.
+2. Open `https://cc.akuwan.cn/admin/console/notifications` and select **API Key**.
 3. Under **消息读取密钥**, choose **签发密钥**, enter a label, and select a
    1–365 day expiry.
 4. Save the generated key immediately because it is displayed only once.
